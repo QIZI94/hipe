@@ -7,6 +7,7 @@ MainWindow::MainWindow(QWidget *parent) :
 {
     ui->setupUi(this);
    // ui->
+    setWindowTitle("Hipe - Not signed in");
     ui->MessageEditBox->setText("Typing something random");
     ui->ChatWidged->setText("QIZI said: nothing because he doesn't have anything to say :D ");
 }
